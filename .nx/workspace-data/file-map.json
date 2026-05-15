@@ -23,6 +23,28 @@
   "fileMap": {
     "nonProjectFiles": [],
     "projectFileMap": {
+      "api": [
+        {
+          "file": "apps/api/project.json",
+          "hash": "14544981260166641417"
+        },
+        {
+          "file": "apps/api/src/assets/.gitkeep",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/api/src/main.ts",
+          "hash": "1769695778783855813"
+        },
+        {
+          "file": "apps/api/tsconfig.app.json",
+          "hash": "663763413802756907"
+        },
+        {
+          "file": "apps/api/tsconfig.json",
+          "hash": "3025378044812449119"
+        }
+      ],
       "api-spec": [
         {
           "file": "packages/api-spec/project.json",
@@ -170,6 +192,10 @@
           "hash": "16267754514737964994"
         },
         {
+          "file": ".vscode/launch.json",
+          "hash": "11911801181309274062"
+        },
+        {
           "file": "CLAUDE.md",
           "hash": "3693179293707062853"
         },
@@ -180,6 +206,117 @@
         {
           "file": "dist/packages/api-client/package.json",
           "hash": "9932850238999259194"
+        },
+        {
+          "file": "dist/packages/api-client/src/generated/apis/DefaultApi.d.ts",
+          "hash": "12738227932845131871"
+        },
+        {
+          "file": "dist/packages/api-client/src/generated/apis/DefaultApi.js",
+          "hash": "13464531796307287586",
+          "deps": [
+            "npm:tslib"
+          ]
+        },
+        {
+          "file": "dist/packages/api-client/src/generated/apis/DefaultApi.js.map",
+          "hash": "768415217514131212"
+        },
+        {
+          "file": "dist/packages/api-client/src/generated/apis/index.d.ts",
+          "hash": "10086070824666635660"
+        },
+        {
+          "file": "dist/packages/api-client/src/generated/apis/index.js",
+          "hash": "10313213856586639253",
+          "deps": [
+            "npm:tslib"
+          ]
+        },
+        {
+          "file": "dist/packages/api-client/src/generated/apis/index.js.map",
+          "hash": "15432663149281579916"
+        },
+        {
+          "file": "dist/packages/api-client/src/generated/index.d.ts",
+          "hash": "2340201328047014738"
+        },
+        {
+          "file": "dist/packages/api-client/src/generated/index.js",
+          "hash": "11004260795937060517",
+          "deps": [
+            "npm:tslib"
+          ]
+        },
+        {
+          "file": "dist/packages/api-client/src/generated/index.js.map",
+          "hash": "15022339080193535655"
+        },
+        {
+          "file": "dist/packages/api-client/src/generated/models/Todo.d.ts",
+          "hash": "17233956947994261612"
+        },
+        {
+          "file": "dist/packages/api-client/src/generated/models/Todo.js",
+          "hash": "1237236751402221786"
+        },
+        {
+          "file": "dist/packages/api-client/src/generated/models/Todo.js.map",
+          "hash": "13046530260073830558"
+        },
+        {
+          "file": "dist/packages/api-client/src/generated/models/TodosIdPutRequest.d.ts",
+          "hash": "10489633907201001926"
+        },
+        {
+          "file": "dist/packages/api-client/src/generated/models/TodosIdPutRequest.js",
+          "hash": "2198688858515336108"
+        },
+        {
+          "file": "dist/packages/api-client/src/generated/models/TodosIdPutRequest.js.map",
+          "hash": "6423689693570417880"
+        },
+        {
+          "file": "dist/packages/api-client/src/generated/models/TodosPostRequest.d.ts",
+          "hash": "17118700851208872722"
+        },
+        {
+          "file": "dist/packages/api-client/src/generated/models/TodosPostRequest.js",
+          "hash": "13246675138938575397"
+        },
+        {
+          "file": "dist/packages/api-client/src/generated/models/TodosPostRequest.js.map",
+          "hash": "15740735392590228044"
+        },
+        {
+          "file": "dist/packages/api-client/src/generated/models/index.d.ts",
+          "hash": "2398334258035349012"
+        },
+        {
+          "file": "dist/packages/api-client/src/generated/models/index.js",
+          "hash": "4726973041803691245",
+          "deps": [
+            "npm:tslib"
+          ]
+        },
+        {
+          "file": "dist/packages/api-client/src/generated/models/index.js.map",
+          "hash": "3531319268087663501"
+        },
+        {
+          "file": "dist/packages/api-client/src/generated/runtime.d.ts",
+          "hash": "5373517133171327746"
+        },
+        {
+          "file": "dist/packages/api-client/src/generated/runtime.js",
+          "hash": "6830971984093520271",
+          "deps": [
+            "npm:tslib"
+          ]
+        },
+        {
+          "file": "dist/packages/api-client/src/generated/runtime.js.map",
+          "hash": "13569730790974143300"
         },
         {
           "file": "dist/packages/api-client/src/index.d.ts",
@@ -236,7 +373,7 @@
         },
         {
           "file": "nx.json",
-          "hash": "16667061870115214343"
+          "hash": "16985504662546341030"
         },
         {
           "file": "openapitools.json",
@@ -244,11 +381,11 @@
         },
         {
           "file": "package-lock.json",
-          "hash": "15069584557324515321"
+          "hash": "4943559644491311503"
         },
         {
           "file": "package.json",
-          "hash": "3344900032594999833"
+          "hash": "3239486220067160895"
         },
         {
           "file": "tsconfig.base.json",
@@ -257,5 +394,5 @@
       ]
     }
   },
-  "externalNodesHash": "9866548667018685693"
+  "externalNodesHash": "4094799488106954442"
 }
