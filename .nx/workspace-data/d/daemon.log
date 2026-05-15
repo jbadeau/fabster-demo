@@ -230,3 +230,203 @@ Time taken for 'build typescript dependencies' 0.05016700000000185ms
 [NX v22.7.2 Daemon Server] - 2026-05-15T07:09:26.339Z - Time taken for 'createMetadata' 0.009166999999990821ms
 [NX v22.7.2 Daemon Server] - 2026-05-15T07:09:26.339Z - Time taken for 'serialize graph' 0.5514580000000251ms
 Fetching nx...
+[NX v22.7.2 Daemon Server] - 2026-05-15T07:09:27.799Z - [LATEST-NX]: Successfully pulled latest Nx to /private/tmp/tmp-34477-wSdPEuTJq3SV
+[NX v22.7.2 Daemon Server] - 2026-05-15T07:09:27.799Z - [NX-CONSOLE]: Using local implementation (NX_USE_LOCAL=true or inner call)
+DEBUG nx::native::ide::install: Detected editor: Unknown
+[NX v22.7.2 Daemon Server] - 2026-05-15T07:09:27.803Z - [NX-CONSOLE]: Console status check completed, shouldPrompt: false
+DEBUG nx::native::ide::install: Editor command 'code' is installed
+DEBUG nx::native::ide::install: Editor command 'code-insiders' not found
+DEBUG nx::native::ide::install: Checking if Nx Console extension is installed with: code --list-extensions
+DEBUG nx::native::ide::install: Nx Console extension is not installed
+DEBUG nx::native::ide::install: Editor command 'cursor' not found
+DEBUG nx::native::ide::install: Checking if Nx Console extension is installed with: cursor --list-extensions
+DEBUG nx::native::ide::install: Command 'cursor' not found, cannot check extension status
+[NX v22.7.2 Daemon Server] - 2026-05-15T07:09:28.113Z - [AI-AGENTS]: Agent configuration status computation completed: 1 fully configured, 0 outdated, 0 partially configured, 4 non-configured
+[NX v22.7.2 Daemon Server] - 2026-05-15T07:09:29.689Z - Established a connection. Number of open connections: 1
+[NX v22.7.2 Daemon Server] - 2026-05-15T07:09:29.689Z - Closed a connection. Number of open connections: 0
+[NX v22.7.2 Daemon Server] - 2026-05-15T07:09:29.690Z - Established a connection. Number of open connections: 1
+[NX v22.7.2 Daemon Server] - 2026-05-15T07:09:29.690Z - Closed a connection. Number of open connections: 0
+[NX v22.7.2 Daemon Server] - 2026-05-15T07:09:29.690Z - Established a connection. Number of open connections: 1
+[NX v22.7.2 Daemon Client] - 2026-05-15T07:09:29.690Z - [Messenger] Setting up socket listeners
+[NX v22.7.2 Daemon Client] - 2026-05-15T07:09:29.690Z - [Messenger] listen() complete
+[NX v22.7.2 Daemon Client] - 2026-05-15T07:09:29.697Z - [Messenger] Sending message type: GET_NX_CONSOLE_STATUS
+[NX v22.7.2 Daemon Client] - 2026-05-15T07:09:29.697Z - [Messenger] Message sent
+[NX v22.7.2 Daemon Server] - 2026-05-15T07:09:29.699Z - Received raw message of length 4876
+[NX v22.7.2 Daemon Server] - 2026-05-15T07:09:29.699Z - Received json message of type GET_NX_CONSOLE_STATUS
+[NX v22.7.2 Daemon Server] - 2026-05-15T07:09:29.699Z - Refreshing env var PATH from client connection.
+[NX v22.7.2 Daemon Server] - 2026-05-15T07:09:29.699Z - Graph recompute necessary due to env variable refresh
+[NX v22.7.2 Daemon Server] - 2026-05-15T07:09:29.699Z - Serializing response for GET_NX_CONSOLE_STATUS message in json mode
+[NX v22.7.2 Daemon Server] - 2026-05-15T07:09:29.699Z - Responding to GET_NX_CONSOLE_STATUS message
+[NX v22.7.2 Daemon Server] - 2026-05-15T07:09:29.699Z - [REQUEST]: Responding to the client. handleGetNxConsoleStatus
+[NX v22.7.2 Daemon Server] - 2026-05-15T07:09:29.699Z - Done responding to the client handleGetNxConsoleStatus
+[NX v22.7.2 Daemon Server] - 2026-05-15T07:09:29.699Z - Handled json message GET_NX_CONSOLE_STATUS. Handling time: 0. Response time: 0.
+[NX v22.7.2 Daemon Client] - 2026-05-15T07:09:29.699Z - [Messenger] Received message, length: 22
+[NX v22.7.2 Daemon Server] - 2026-05-15T07:09:37.373Z - [WATCHER]: package.json was modified
+[NX v22.7.2 Daemon Server] - 2026-05-15T07:09:37.373Z - [WATCHER]: File changes detected:
+Created:
+(none)
+Updated:
+  - package.json
+Deleted:
+(none)
+[NX v22.7.2 Daemon Server] - 2026-05-15T07:09:37.373Z - [SYNC]: clearing sync generators cache due to file changes
+[NX v22.7.2 Daemon Server] - 2026-05-15T07:09:37.373Z - [WATCHER]: Processing file changes in outputs
+[NX v22.7.2 Daemon Server] - 2026-05-15T07:09:37.401Z - [Server] lock file hash changed! old=11576041700039754186, new=5030395218993913867
+[NX v22.7.2 Daemon Server] - 2026-05-15T07:09:37.401Z - [Server] Daemon outdated: LOCK_FILES_CHANGED
+[NX v22.7.2 Daemon Server] - 2026-05-15T07:09:37.401Z - [Server] Restarting daemon...
+[NX v22.7.2 Daemon Server] - 2026-05-15T07:09:37.401Z - Restarting daemon with script: /Users/jbadeau/git/fabster-demo/node_modules/nx/dist/src/daemon/server/start.js
+[NX v22.7.2 Daemon Server] - 2026-05-15T07:09:37.401Z - Old daemon __dirname: /Users/jbadeau/git/fabster-demo/node_modules/nx/dist/src/daemon/server
+[NX v22.7.2 Daemon Server] - 2026-05-15T07:09:37.401Z - Current process.execPath: /Users/jbadeau/.local/share/mise/installs/node/26.1.0/bin/node
+[NX v22.7.2 Daemon Server] - 2026-05-15T07:09:37.401Z - Started new daemon process in background
+[NX v22.7.2 Daemon Server] - 2026-05-15T07:09:37.402Z - Closed a connection. Number of open connections: 0
+[NX v22.7.2 Daemon Server] - 2026-05-15T07:09:37.402Z - [WATCHER]: Stopping the watcher for /Users/jbadeau/git/fabster-demo (sources)
+[NX v22.7.2 Daemon Server] - 2026-05-15T07:09:37.402Z - [WATCHER]: Stopping the watcher for /Users/jbadeau/git/fabster-demo (outputs)
+[NX v22.7.2 Daemon Server] - 2026-05-15T07:09:37.402Z - [LATEST-NX]: Cleaning up latest Nx installation from /private/tmp/tmp-34477-wSdPEuTJq3SV
+[NX v22.7.2 Daemon Server] - 2026-05-15T07:09:37.402Z - Server stopped because: "LOCK_FILES_CHANGED"
+[NX v22.7.2 Daemon Server] - 2026-05-15T07:09:37.478Z - New daemon starting from: /Users/jbadeau/git/fabster-demo/node_modules/nx/dist/src/daemon/server/server.js
+[NX v22.7.2 Daemon Server] - 2026-05-15T07:09:37.478Z - New daemon __dirname: /Users/jbadeau/git/fabster-demo/node_modules/nx/dist/src/daemon/server
+[NX v22.7.2 Daemon Server] - 2026-05-15T07:09:37.478Z - New daemon nxVersion: 22.7.2
+[NX v22.7.2 Daemon Server] - 2026-05-15T07:09:37.479Z - New daemon getInstalledNxVersion(): 22.7.2
+[NX v22.7.2 Daemon Server] - 2026-05-15T07:09:37.479Z - Time taken for 'workspace context init' 0.9952919999999992ms
+[NX v22.7.2 Daemon Server] - 2026-05-15T07:09:37.480Z - [Server] Starting outdated check interval (20ms)
+[NX v22.7.2 Daemon Server] - 2026-05-15T07:09:37.480Z - Started listening on: /private/tmp/9fe8af855dd799319051/d.sock
+[NX v22.7.2 Daemon Server] - 2026-05-15T07:09:37.481Z - [WATCHER]: Subscribed to changes within: /Users/jbadeau/git/fabster-demo (native)
+[NX v22.7.2 Daemon Server] - 2026-05-15T07:09:37.481Z - [LATEST-NX]: Pulling latest Nx...
+[NX v22.7.2 Daemon Server] - 2026-05-15T07:09:37.483Z - [AI-AGENTS]: Starting agent configuration status computation
+[NX v22.7.2 Daemon Server] - 2026-05-15T07:09:37.541Z - [WATCHER]: Processing file changes in outputs
+[isolated-plugin] spawned worker for "/Users/jbadeau/git/fabster-demo/node_modules/nx/dist/src/plugins/js" (pid: 34791, socket: /private/tmp/plugin34783-0-168.320625.sock)
+[isolated-plugin] spawned worker for "/Users/jbadeau/git/fabster-demo/node_modules/nx/dist/src/plugins/package-json" (pid: 34792, socket: /private/tmp/plugin34783-1-169.194542.sock)
+[isolated-plugin] spawned worker for "/Users/jbadeau/git/fabster-demo/node_modules/nx/dist/src/plugins/project-json/build-nodes/project-json" (pid: 34793, socket: /private/tmp/plugin34783-2-169.604167.sock)
+[NX v22.7.2 Daemon Server] - 2026-05-15T07:09:37.584Z - Time taken for 'loadSpecifiedNxPlugins' 1.810167000000007ms
+[plugin-worker] "/Users/jbadeau/git/fabster-demo/node_modules/nx/dist/src/plugins/js" (pid: 34791) listening on /private/tmp/plugin34783-0-168.320625.sock
+[plugin-worker] "/Users/jbadeau/git/fabster-demo/node_modules/nx/dist/src/plugins/package-json" (pid: 34792) listening on /private/tmp/plugin34783-1-169.194542.sock
+Time taken for 'plugin worker 34791 code loading' 41.532583ms
+Time taken for 'plugin worker 34792 code loading' 37.222375ms
+[plugin-worker] "/Users/jbadeau/git/fabster-demo/node_modules/nx/dist/src/plugins/project-json/build-nodes/project-json" (pid: 34793) listening on /private/tmp/plugin34783-2-169.604167.sock
+Time taken for 'plugin worker 34793 code loading' 33.914291000000006ms
+[isolated-plugin] connected to worker for "/Users/jbadeau/git/fabster-demo/node_modules/nx/dist/src/plugins/js" (pid: 34791)
+[isolated-plugin] connected to worker for "/Users/jbadeau/git/fabster-demo/node_modules/nx/dist/src/plugins/package-json" (pid: 34792)
+[isolated-plugin] connected to worker for "/Users/jbadeau/git/fabster-demo/node_modules/nx/dist/src/plugins/project-json/build-nodes/project-json" (pid: 34793)
+[NX v22.7.2 Daemon Server] - 2026-05-15T07:09:37.660Z - Time taken for 'start-plugin-worker:/Users/jbadeau/git/fabster-demo/node_modules/nx/dist/src/plugins/js' 76.95645900000002ms
+[NX v22.7.2 Daemon Server] - 2026-05-15T07:09:37.660Z - Time taken for 'start-plugin-worker:/Users/jbadeau/git/fabster-demo/node_modules/nx/dist/src/plugins/package-json' 76.4425ms
+[NX v22.7.2 Daemon Server] - 2026-05-15T07:09:37.660Z - Time taken for 'start-plugin-worker:/Users/jbadeau/git/fabster-demo/node_modules/nx/dist/src/plugins/project-json/build-nodes/project-json' 76.10816699999998ms
+[plugin-worker] "/Users/jbadeau/git/fabster-demo/node_modules/nx/dist/src/plugins/js" (pid: 34791) connected
+[plugin-worker] "/Users/jbadeau/git/fabster-demo/node_modules/nx/dist/src/plugins/project-json/build-nodes/project-json" (pid: 34793) connected
+[plugin-worker] "/Users/jbadeau/git/fabster-demo/node_modules/nx/dist/src/plugins/package-json" (pid: 34792) connected
+[plugin-worker] "/Users/jbadeau/git/fabster-demo/node_modules/nx/dist/src/plugins/project-json/build-nodes/project-json" (pid: 34793) loaded successfully
+[NX v22.7.2 Daemon Server] - 2026-05-15T07:09:37.673Z - Time taken for 'Load Nx Plugin: /Users/jbadeau/git/fabster-demo/node_modules/nx/dist/src/plugins/project-json/build-nodes/project-json' 91.58054199999998ms
+[plugin-worker] "/Users/jbadeau/git/fabster-demo/node_modules/nx/dist/src/plugins/package-json" (pid: 34792) loaded successfully
+[NX v22.7.2 Daemon Server] - 2026-05-15T07:09:37.674Z - Time taken for 'Load Nx Plugin: /Users/jbadeau/git/fabster-demo/node_modules/nx/dist/src/plugins/package-json' 91.94708299999999ms
+[plugin-worker] "/Users/jbadeau/git/fabster-demo/node_modules/nx/dist/src/plugins/js" (pid: 34791) loaded successfully
+[NX v22.7.2 Daemon Server] - 2026-05-15T07:09:37.675Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v22.7.2 Daemon Server] - 2026-05-15T07:09:37.675Z - [REQUEST]: 
+[NX v22.7.2 Daemon Server] - 2026-05-15T07:09:37.675Z - [REQUEST]: 
+[NX v22.7.2 Daemon Server] - 2026-05-15T07:09:37.678Z - Time taken for 'loadDefaultNxPlugins' 93.857666ms
+[NX v22.7.2 Daemon Server] - 2026-05-15T07:09:37.678Z - Time taken for 'Load Nx Plugin: /Users/jbadeau/git/fabster-demo/node_modules/nx/dist/src/plugins/js' 93.77387500000003ms
+[NX v22.7.2 Daemon Server] - 2026-05-15T07:09:37.678Z - Time taken for 'hash changed files from watcher' 0.03608400000001666ms
+[isolated-plugin] shutting down worker for "nx/core/project-json" after createNodes
+[isolated-plugin] shutting down worker for "nx/core/package-json" after createNodes
+Time taken for 'nx/js/dependencies-and-lockfile:createNodes' 5.745915999999994ms
+[NX v22.7.2 Daemon Server] - 2026-05-15T07:09:37.693Z - Time taken for 'build-project-configs' 9.776666999999975ms
+[NX v22.7.2 Daemon Server] - 2026-05-15T07:09:37.693Z - Time taken for 'createNodes:merge' 0.3105410000000006ms
+[NX v22.7.2 Daemon Server] - 2026-05-15T07:09:37.693Z - Time taken for 'native-file-deps' 0.0011669999999526226ms
+[NX v22.7.2 Daemon Server] - 2026-05-15T07:09:37.693Z - Time taken for 'get-workspace-files' 0.1900410000000079ms
+[NX v22.7.2 Daemon Server] - 2026-05-15T07:09:37.693Z - Time taken for 'get-all-workspace-files' 5.227833000000032ms
+[NX v22.7.2 Daemon Server] - 2026-05-15T07:09:37.693Z - Time taken for 'read cache' 0.10204199999998309ms
+Time taken for 'build typescript dependencies' 0.05237499999999784ms
+[isolated-plugin] shutting down worker for "nx/js/dependencies-and-lockfile" after createDependencies
+[NX v22.7.2 Daemon Server] - 2026-05-15T07:09:37.710Z - [SYNC]: collect registered sync generators
+[NX v22.7.2 Daemon Server] - 2026-05-15T07:09:37.710Z - Time taken for 'total execution time for createProjectGraph()' 18.16808400000002ms
+[NX v22.7.2 Daemon Server] - 2026-05-15T07:09:37.710Z - Time taken for 'createDependencies' 16.440124999999966ms
+[NX v22.7.2 Daemon Server] - 2026-05-15T07:09:37.710Z - Time taken for 'nx/js/dependencies-and-lockfile:createDependencies' 16.36583399999995ms
+[NX v22.7.2 Daemon Server] - 2026-05-15T07:09:37.710Z - Time taken for 'createMetadata' 0.00895900000000438ms
+[NX v22.7.2 Daemon Server] - 2026-05-15T07:09:37.710Z - Time taken for 'serialize graph' 0.6066670000000158ms
+[NX v22.7.2 Daemon Server] - 2026-05-15T07:09:37.886Z - Established a connection. Number of open connections: 1
+[NX v22.7.2 Daemon Server] - 2026-05-15T07:09:37.886Z - Closed a connection. Number of open connections: 0
+[NX v22.7.2 Daemon Server] - 2026-05-15T07:09:37.886Z - Established a connection. Number of open connections: 1
+[NX v22.7.2 Daemon Server] - 2026-05-15T07:09:37.886Z - Closed a connection. Number of open connections: 0
+[NX v22.7.2 Daemon Server] - 2026-05-15T07:09:37.886Z - Established a connection. Number of open connections: 1
+[NX v22.7.2 Daemon Client] - 2026-05-15T07:09:37.887Z - [Messenger] Setting up socket listeners
+[NX v22.7.2 Daemon Client] - 2026-05-15T07:09:37.887Z - [Messenger] listen() complete
+[NX v22.7.2 Daemon Client] - 2026-05-15T07:09:37.893Z - [Messenger] Sending message type: GET_NX_CONSOLE_STATUS
+[NX v22.7.2 Daemon Client] - 2026-05-15T07:09:37.893Z - [Messenger] Message sent
+[NX v22.7.2 Daemon Server] - 2026-05-15T07:09:37.895Z - Received raw message of length 5214
+[NX v22.7.2 Daemon Server] - 2026-05-15T07:09:37.895Z - Received json message of type GET_NX_CONSOLE_STATUS
+[NX v22.7.2 Daemon Server] - 2026-05-15T07:09:37.895Z - Refreshing env var PATH from client connection.
+[NX v22.7.2 Daemon Server] - 2026-05-15T07:09:37.895Z - Graph recompute necessary due to env variable refresh
+[NX v22.7.2 Daemon Server] - 2026-05-15T07:09:37.895Z - Serializing response for GET_NX_CONSOLE_STATUS message in json mode
+[NX v22.7.2 Daemon Server] - 2026-05-15T07:09:37.895Z - Responding to GET_NX_CONSOLE_STATUS message
+[NX v22.7.2 Daemon Server] - 2026-05-15T07:09:37.895Z - [REQUEST]: Responding to the client. handleGetNxConsoleStatus
+[NX v22.7.2 Daemon Server] - 2026-05-15T07:09:37.895Z - Done responding to the client handleGetNxConsoleStatus
+[NX v22.7.2 Daemon Server] - 2026-05-15T07:09:37.895Z - Handled json message GET_NX_CONSOLE_STATUS. Handling time: 0. Response time: 0.
+[NX v22.7.2 Daemon Client] - 2026-05-15T07:09:37.895Z - [Messenger] Received message, length: 22
+[NX v22.7.2 Daemon Client] - 2026-05-15T07:09:37.900Z - [Messenger] Sending message type: REQUEST_PROJECT_GRAPH
+[NX v22.7.2 Daemon Server] - 2026-05-15T07:09:37.900Z - Received raw message of length 32
+[NX v22.7.2 Daemon Client] - 2026-05-15T07:09:37.900Z - [Messenger] Message sent
+[NX v22.7.2 Daemon Server] - 2026-05-15T07:09:37.900Z - Received json message of type REQUEST_PROJECT_GRAPH
+[NX v22.7.2 Daemon Server] - 2026-05-15T07:09:37.900Z - [REQUEST]: Client Request for Project Graph Received
+[NX v22.7.2 Daemon Server] - 2026-05-15T07:09:37.901Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v22.7.2 Daemon Server] - 2026-05-15T07:09:37.901Z - [REQUEST]: 
+[NX v22.7.2 Daemon Server] - 2026-05-15T07:09:37.901Z - [REQUEST]: 
+[NX v22.7.2 Daemon Server] - 2026-05-15T07:09:37.901Z - No files changed, but no in-memory cached project graph found. Recomputing it...
+[NX v22.7.2 Daemon Server] - 2026-05-15T07:09:37.901Z - Streaming message to client: progress update for topic graph-construction
+[NX v22.7.2 Daemon Client] - 2026-05-15T07:09:37.901Z - [Messenger] Received message, length: 47
+[plugin-client] restarting worker for "nx/js/dependencies-and-lockfile"
+[isolated-plugin] spawned worker for "nx/js/dependencies-and-lockfile" (pid: 34816, socket: /private/tmp/plugin34783-3-487.400042.sock)
+[plugin-client] restarting worker for "nx/core/package-json"
+[isolated-plugin] spawned worker for "nx/core/package-json" (pid: 34817, socket: /private/tmp/plugin34783-4-487.988333.sock)
+[plugin-client] restarting worker for "nx/core/project-json"
+[isolated-plugin] spawned worker for "nx/core/project-json" (pid: 34818, socket: /private/tmp/plugin34783-5-488.319667.sock)
+[NX v22.7.2 Daemon Server] - 2026-05-15T07:09:37.902Z - Time taken for 'hash changed files from watcher' 0.011958999999990283ms
+[plugin-worker] "nx/js/dependencies-and-lockfile" (pid: 34816) listening on /private/tmp/plugin34783-3-487.400042.sock
+Time taken for 'plugin worker 34816 code loading' 34.592792ms
+[plugin-worker] "nx/core/package-json" (pid: 34817) listening on /private/tmp/plugin34783-4-487.988333.sock
+Time taken for 'plugin worker 34817 code loading' 32.448584ms
+[isolated-plugin] connected to worker for "nx/js/dependencies-and-lockfile" (pid: 34816)
+[isolated-plugin] connected to worker for "nx/core/package-json" (pid: 34817)
+[NX v22.7.2 Daemon Server] - 2026-05-15T07:09:37.965Z - Time taken for 'start-plugin-worker:nx/js/dependencies-and-lockfile' 63.69274999999999ms
+[NX v22.7.2 Daemon Server] - 2026-05-15T07:09:37.965Z - Time taken for 'start-plugin-worker:nx/core/package-json' 63.213250000000016ms
+[plugin-worker] "nx/js/dependencies-and-lockfile" (pid: 34816) connected
+[plugin-worker] "nx/core/package-json" (pid: 34817) connected
+[plugin-worker] "nx/core/project-json" (pid: 34818) listening on /private/tmp/plugin34783-5-488.319667.sock
+Time taken for 'plugin worker 34818 code loading' 32.164709ms
+[isolated-plugin] connected to worker for "nx/core/project-json" (pid: 34818)
+[NX v22.7.2 Daemon Server] - 2026-05-15T07:09:37.976Z - Time taken for 'start-plugin-worker:nx/core/project-json' 73.996916ms
+[plugin-worker] "nx/core/project-json" (pid: 34818) connected
+[plugin-worker] "nx/core/package-json" (pid: 34817) loaded successfully
+[isolated-plugin] shutting down worker for "nx/core/package-json" after createNodes
+[NX v22.7.2 Daemon Server] - 2026-05-15T07:09:37.978Z - Streaming message to client: progress update for topic graph-construction
+[NX v22.7.2 Daemon Client] - 2026-05-15T07:09:37.978Z - [Messenger] Received message, length: 153
+[plugin-worker] "nx/js/dependencies-and-lockfile" (pid: 34816) loaded successfully
+Time taken for 'nx/js/dependencies-and-lockfile:createNodes' 2.413249999999991ms
+[NX v22.7.2 Daemon Server] - 2026-05-15T07:09:37.984Z - Streaming message to client: progress update for topic graph-construction
+[NX v22.7.2 Daemon Client] - 2026-05-15T07:09:37.984Z - [Messenger] Received message, length: 101
+[plugin-worker] "nx/core/project-json" (pid: 34818) loaded successfully
+[isolated-plugin] shutting down worker for "nx/core/project-json" after createNodes
+[NX v22.7.2 Daemon Server] - 2026-05-15T07:09:37.988Z - Streaming message to client: progress update for topic graph-construction
+[NX v22.7.2 Daemon Client] - 2026-05-15T07:09:37.988Z - [Messenger] Received message, length: 47
+[NX v22.7.2 Daemon Server] - 2026-05-15T07:09:37.989Z - Streaming message to client: progress update for topic graph-construction
+[NX v22.7.2 Daemon Client] - 2026-05-15T07:09:37.990Z - [Messenger] Received message, length: 47
+[NX v22.7.2 Daemon Server] - 2026-05-15T07:09:37.990Z - Time taken for 'build-project-configs' 87.28241700000001ms
+[NX v22.7.2 Daemon Server] - 2026-05-15T07:09:37.990Z - Time taken for 'createNodes:merge' 0.20770899999990888ms
+[NX v22.7.2 Daemon Server] - 2026-05-15T07:09:37.990Z - Time taken for 'get-all-workspace-files' 0.008499999999912689ms
+Time taken for 'build typescript dependencies' 0.043250000000000455ms
+[isolated-plugin] shutting down worker for "nx/js/dependencies-and-lockfile" after createDependencies
+[NX v22.7.2 Daemon Server] - 2026-05-15T07:09:37.994Z - Streaming message to client: progress update for topic graph-construction
+[NX v22.7.2 Daemon Client] - 2026-05-15T07:09:37.994Z - [Messenger] Received message, length: 47
+[NX v22.7.2 Daemon Server] - 2026-05-15T07:09:37.997Z - Wrote project graph cache to /Users/jbadeau/git/fabster-demo/.nx/workspace-data/project-graph.json
+[NX v22.7.2 Daemon Server] - 2026-05-15T07:09:37.997Z - Serializing response for REQUEST_PROJECT_GRAPH message in json mode
+[NX v22.7.2 Daemon Server] - 2026-05-15T07:09:37.997Z - Responding to REQUEST_PROJECT_GRAPH message
+[NX v22.7.2 Daemon Server] - 2026-05-15T07:09:37.997Z - [REQUEST]: Responding to the client. project-graph
+[NX v22.7.2 Daemon Server] - 2026-05-15T07:09:37.997Z - Time taken for 'total for creating and serializing project graph' 96.35170800000003ms
+[NX v22.7.2 Daemon Server] - 2026-05-15T07:09:37.997Z - Time taken for 'total execution time for createProjectGraph()' 6.2442080000000715ms
+[NX v22.7.2 Daemon Server] - 2026-05-15T07:09:37.997Z - Time taken for 'createDependencies' 5.155583000000092ms
+[NX v22.7.2 Daemon Server] - 2026-05-15T07:09:37.997Z - Time taken for 'nx/js/dependencies-and-lockfile:createDependencies' 5.091457999999989ms
+[NX v22.7.2 Daemon Server] - 2026-05-15T07:09:37.997Z - Time taken for 'createMetadata' 0.005250000000046384ms
+[NX v22.7.2 Daemon Server] - 2026-05-15T07:09:37.997Z - Time taken for 'serialize graph' 0.6251669999999194ms
+[NX v22.7.2 Daemon Server] - 2026-05-15T07:09:37.997Z - Time taken for 'write cache' 1.381832999999915ms
+[NX v22.7.2 Daemon Server] - 2026-05-15T07:09:37.998Z - Done responding to the client project-graph
+[NX v22.7.2 Daemon Server] - 2026-05-15T07:09:37.998Z - Handled json message REQUEST_PROJECT_GRAPH. Handling time: 97. Response time: 1.
+[NX v22.7.2 Daemon Client] - 2026-05-15T07:09:37.998Z - [Messenger] Received message, length: 521127
+[NX v22.7.2 Daemon Server] - 2026-05-15T07:09:38.015Z - Closed a connection. Number of open connections: 0
+Fetching nx...

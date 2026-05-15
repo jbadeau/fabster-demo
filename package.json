@@ -13,6 +13,7 @@
     "@fabster/core": "file:../fabster/packages/core",
     "@fabster/nx": "file:../fabster/packages/nx",
     "@fabster/runtime": "file:../fabster/packages/runtime",
+    "@nx/node": "^22.7.2",
     "@nx/react": "^22.7.2",
     "@struktoai/mirage-node": "^0.0.1",
     "nx": "22.7.2",
