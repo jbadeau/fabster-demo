@@ -1,48 +1,145 @@
 {
   "version": "6.0",
   "nxVersion": "22.7.2",
-  "pathMappings": {},
-  "nxJsonPlugins": [],
+  "pathMappings": {
+    "api-spec": [
+      "./packages/api-spec/src/index.ts"
+    ]
+  },
+  "nxJsonPlugins": [
+    {
+      "name": "@nx/eslint/plugin",
+      "options": {
+        "targetName": "lint"
+      }
+    },
+    {
+      "name": "@nx/jest/plugin",
+      "options": {
+        "targetName": "test"
+      }
+    }
+  ],
   "fileMap": {
     "nonProjectFiles": [
       {
-        "file": "package.json",
-        "hash": "6587885091708433805"
+        "file": ".gitignore",
+        "hash": "2027818105888162093"
       },
       {
         "file": ".claude/settings.json",
         "hash": "4174402289047638020"
       },
       {
+        "file": ".idea/.gitignore",
+        "hash": "2389750024481521079"
+      },
+      {
+        "file": "jest.config.ts",
+        "hash": "6870352021923392442"
+      },
+      {
         "file": "package-lock.json",
-        "hash": "2922859781549434257"
+        "hash": "1102459547399999696"
       },
       {
-        "file": "CLAUDE.md",
-        "hash": "3693179293707062853"
+        "file": "jest.preset.cjs",
+        "hash": "9430166341120122740"
       },
       {
-        "file": "mise.toml",
-        "hash": "1493836231846946414"
+        "file": ".prettierrc",
+        "hash": "16267754514737964994"
       },
       {
         "file": "fabster.workflow.ts",
         "hash": "16212435971818381545"
       },
       {
-        "file": ".idea/.gitignore",
-        "hash": "2389750024481521079"
+        "file": "mise.toml",
+        "hash": "1493836231846946414"
+      },
+      {
+        "file": "CLAUDE.md",
+        "hash": "3693179293707062853"
+      },
+      {
+        "file": "tsconfig.base.json",
+        "hash": "12442226922939465414"
+      },
+      {
+        "file": "eslint.config.mjs",
+        "hash": "12926286793420397906"
       },
       {
         "file": "nx.json",
-        "hash": "13380079444191116890"
+        "hash": "16667061870115214343"
       },
       {
-        "file": ".gitignore",
-        "hash": "2027818105888162093"
+        "file": "package.json",
+        "hash": "16855423657819157515"
+      },
+      {
+        "file": ".prettierignore",
+        "hash": "14688272390704683536"
       }
     ],
-    "projectFileMap": {}
+    "projectFileMap": {
+      "api-spec": [
+        {
+          "file": "packages/api-spec/README.md",
+          "hash": "7563562637242097706"
+        },
+        {
+          "file": "packages/api-spec/eslint.config.mjs",
+          "hash": "4313095032450400554",
+          "deps": [
+            [
+              "npm:jsonc-eslint-parser",
+              "dynamic"
+            ]
+          ]
+        },
+        {
+          "file": "packages/api-spec/jest.config.cts",
+          "hash": "9580748206445011212"
+        },
+        {
+          "file": "packages/api-spec/package.json",
+          "hash": "14089907414602414022",
+          "deps": [
+            "npm:tslib"
+          ]
+        },
+        {
+          "file": "packages/api-spec/project.json",
+          "hash": "15394395384724975828"
+        },
+        {
+          "file": "packages/api-spec/src/index.ts",
+          "hash": "5475565701173212806"
+        },
+        {
+          "file": "packages/api-spec/src/lib/api-spec.spec.ts",
+          "hash": "16888680466277937737"
+        },
+        {
+          "file": "packages/api-spec/src/lib/api-spec.ts",
+          "hash": "4948390367806862644"
+        },
+        {
+          "file": "packages/api-spec/tsconfig.json",
+          "hash": "12975668481162286788"
+        },
+        {
+          "file": "packages/api-spec/tsconfig.lib.json",
+          "hash": "13731893420473560347"
+        },
+        {
+          "file": "packages/api-spec/tsconfig.spec.json",
+          "hash": "11011431583980985399"
+        }
+      ]
+    }
   },
-  "externalNodesHash": "7916512993546741719"
+  "externalNodesHash": "17106129900252665392"
 }
