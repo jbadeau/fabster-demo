@@ -1,0 +1,20 @@
+{
+  "name": "fabster-demo",
+  "version": "0.0.1",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "fabster": "node --import tsx ../fabster/packages/cli/src/bin/fabster.ts"
+  },
+  "dependencies": {
+    "@ai-sdk/anthropic": "^3.0.0",
+    "@fabster/cli": "file:../fabster/packages/cli",
+    "@fabster/core": "file:../fabster/packages/core",
+    "@fabster/nx": "file:../fabster/packages/nx",
+    "@fabster/runtime": "file:../fabster/packages/runtime",
+    "@struktoai/mirage-core": "^0.0.1",
+    "@struktoai/mirage-node": "^0.0.1",
+    "ollama-ai-provider": "^1.2.0",
+    "tsx": "^4.0.0"
+  }
+}
