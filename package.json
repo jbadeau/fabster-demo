@@ -11,7 +11,12 @@
   "license": "ISC",
   "type": "commonjs",
   "devDependencies": {
+    "@nx/react": "^22.7.2",
     "nx": "22.7.2"
   },
-  "nx": {}
+  "nx": {},
+  "dependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  }
 }

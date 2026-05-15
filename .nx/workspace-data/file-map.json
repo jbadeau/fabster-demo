@@ -1,0 +1,46 @@
+{
+  "version": "6.0",
+  "nxVersion": "22.7.2",
+  "pathMappings": {},
+  "nxJsonPlugins": [],
+  "fileMap": {
+    "nonProjectFiles": [],
+    "projectFileMap": {
+      "init-workspace": [
+        {
+          "file": ".claude/settings.json",
+          "hash": "4174402289047638020"
+        },
+        {
+          "file": ".gitignore",
+          "hash": "3428203915016459361"
+        },
+        {
+          "file": ".idea/.gitignore",
+          "hash": "2389750024481521079"
+        },
+        {
+          "file": "CLAUDE.md",
+          "hash": "3693179293707062853"
+        },
+        {
+          "file": "mise.toml",
+          "hash": "7272457414141111085"
+        },
+        {
+          "file": "nx.json",
+          "hash": "13380079444191116890"
+        },
+        {
+          "file": "package-lock.json",
+          "hash": "2214442264833480099"
+        },
+        {
+          "file": "package.json",
+          "hash": "2892884704621981477"
+        }
+      ]
+    }
+  },
+  "externalNodesHash": "4759071016993946376"
+}
