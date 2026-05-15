@@ -1,4 +1,242 @@
 {
+  "packages/api-client": {
+    "root": [
+      "packages/api-client/project.json",
+      "nx/core/project-json"
+    ],
+    "targets": [
+      "packages/api-client/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint": [
+      "packages/api-client/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.cache": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.lint.options": [
+      "packages/api-client/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.inputs": [
+      "packages/api-client/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.outputs": [
+      "packages/api-client/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata": [
+      "packages/api-client/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.executor": [
+      "packages/api-client/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.options.cwd": [
+      "packages/api-client/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.options.command": [
+      "packages/api-client/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.technologies": [
+      "packages/api-client/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.technologies.0": [
+      "packages/api-client/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.description": [
+      "packages/api-client/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.help": [
+      "packages/api-client/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.help.command": [
+      "packages/api-client/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.help.example": [
+      "packages/api-client/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.test": [
+      "packages/api-client/jest.config.cts",
+      "@nx/jest/plugin"
+    ],
+    "targets.test.options": [
+      "packages/api-client/jest.config.cts",
+      "@nx/jest/plugin"
+    ],
+    "targets.test.metadata": [
+      "packages/api-client/jest.config.cts",
+      "@nx/jest/plugin"
+    ],
+    "targets.test.cache": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.test.inputs": [
+      "packages/api-client/jest.config.cts",
+      "@nx/jest/plugin"
+    ],
+    "targets.test.outputs": [
+      "packages/api-client/jest.config.cts",
+      "@nx/jest/plugin"
+    ],
+    "targets.test.executor": [
+      "packages/api-client/jest.config.cts",
+      "@nx/jest/plugin"
+    ],
+    "targets.test.options.cwd": [
+      "packages/api-client/jest.config.cts",
+      "@nx/jest/plugin"
+    ],
+    "targets.test.options.env": [
+      "packages/api-client/jest.config.cts",
+      "@nx/jest/plugin"
+    ],
+    "targets.test.options.command": [
+      "packages/api-client/jest.config.cts",
+      "@nx/jest/plugin"
+    ],
+    "targets.test.metadata.technologies": [
+      "packages/api-client/jest.config.cts",
+      "@nx/jest/plugin"
+    ],
+    "targets.test.metadata.technologies.0": [
+      "packages/api-client/jest.config.cts",
+      "@nx/jest/plugin"
+    ],
+    "targets.test.metadata.description": [
+      "packages/api-client/jest.config.cts",
+      "@nx/jest/plugin"
+    ],
+    "targets.test.metadata.help": [
+      "packages/api-client/jest.config.cts",
+      "@nx/jest/plugin"
+    ],
+    "targets.test.metadata.help.command": [
+      "packages/api-client/jest.config.cts",
+      "@nx/jest/plugin"
+    ],
+    "targets.test.metadata.help.example": [
+      "packages/api-client/jest.config.cts",
+      "@nx/jest/plugin"
+    ],
+    "name": [
+      "packages/api-client/project.json",
+      "nx/core/project-json"
+    ],
+    "tags": [
+      "packages/api-client/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:private": [
+      "packages/api-client/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups": [
+      "packages/api-client/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js": [
+      "packages/api-client/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageName": [
+      "packages/api-client/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageVersion": [
+      "packages/api-client/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageMain": [
+      "packages/api-client/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.isInPackageManagerWorkspaces": [
+      "packages/api-client/package.json",
+      "nx/core/package-json"
+    ],
+    "$schema": [
+      "packages/api-client/project.json",
+      "nx/core/project-json"
+    ],
+    "sourceRoot": [
+      "packages/api-client/project.json",
+      "nx/core/project-json"
+    ],
+    "projectType": [
+      "packages/api-client/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build": [
+      "packages/api-client/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.executor": [
+      "packages/api-client/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.outputs": [
+      "packages/api-client/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options": [
+      "packages/api-client/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.outputPath": [
+      "packages/api-client/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.main": [
+      "packages/api-client/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.tsConfig": [
+      "packages/api-client/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.assets": [
+      "packages/api-client/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.parallelism": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.test.parallelism": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build.cache": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build.dependsOn": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build.inputs": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build.parallelism": [
+      "nx.json",
+      "nx/target-defaults"
+    ]
+  },
   ".": {
     "root": [
       "package.json",
@@ -107,6 +345,24 @@
     "targets.test.parallelism": [
       "nx.json",
       "nx/target-defaults"
+    ]
+  },
+  "packages/api-spec": {
+    "root": [
+      "packages/api-spec/project.json",
+      "nx/core/project-json"
+    ],
+    "name": [
+      "packages/api-spec/project.json",
+      "nx/core/project-json"
+    ],
+    "sourceRoot": [
+      "packages/api-spec/project.json",
+      "nx/core/project-json"
+    ],
+    "projectType": [
+      "packages/api-spec/project.json",
+      "nx/core/project-json"
     ]
   }
 }

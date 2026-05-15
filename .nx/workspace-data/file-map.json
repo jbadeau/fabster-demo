@@ -1,11 +1,83 @@
 {
   "version": "6.0",
   "nxVersion": "22.7.2",
-  "pathMappings": {},
-  "nxJsonPlugins": [],
+  "pathMappings": {
+    "api-client": [
+      "./packages/api-client/src/index.ts"
+    ]
+  },
+  "nxJsonPlugins": [
+    {
+      "name": "@nx/eslint/plugin",
+      "options": {
+        "targetName": "lint"
+      }
+    },
+    {
+      "name": "@nx/jest/plugin",
+      "options": {
+        "targetName": "test"
+      }
+    }
+  ],
   "fileMap": {
     "nonProjectFiles": [],
     "projectFileMap": {
+      "api-client": [
+        {
+          "file": "packages/api-client/README.md",
+          "hash": "7690025743337817772"
+        },
+        {
+          "file": "packages/api-client/eslint.config.mjs",
+          "hash": "4313095032450400554",
+          "deps": [
+            [
+              "npm:jsonc-eslint-parser",
+              "dynamic"
+            ]
+          ]
+        },
+        {
+          "file": "packages/api-client/jest.config.cts",
+          "hash": "14253905371857911436"
+        },
+        {
+          "file": "packages/api-client/package.json",
+          "hash": "2045408770221331397",
+          "deps": [
+            "npm:tslib"
+          ]
+        },
+        {
+          "file": "packages/api-client/project.json",
+          "hash": "1341664342083206422"
+        },
+        {
+          "file": "packages/api-client/src/index.ts",
+          "hash": "3652867921044571464"
+        },
+        {
+          "file": "packages/api-client/src/lib/api-client.spec.ts",
+          "hash": "10989764187796259894"
+        },
+        {
+          "file": "packages/api-client/src/lib/api-client.ts",
+          "hash": "16389761208029192698"
+        },
+        {
+          "file": "packages/api-client/tsconfig.json",
+          "hash": "12975668481162286788"
+        },
+        {
+          "file": "packages/api-client/tsconfig.lib.json",
+          "hash": "13731893420473560347"
+        },
+        {
+          "file": "packages/api-client/tsconfig.spec.json",
+          "hash": "11011431583980985399"
+        }
+      ],
       "init-workspace": [
         {
           "file": ".claude/settings.json",
@@ -20,8 +92,38 @@
           "hash": "2389750024481521079"
         },
         {
+          "file": ".prettierignore",
+          "hash": "14688272390704683536"
+        },
+        {
+          "file": ".prettierrc",
+          "hash": "16267754514737964994"
+        },
+        {
           "file": "CLAUDE.md",
           "hash": "3693179293707062853"
+        },
+        {
+          "file": "eslint.config.mjs",
+          "hash": "12926286793420397906",
+          "deps": [
+            "npm:@nx/eslint-plugin"
+          ]
+        },
+        {
+          "file": "jest.config.ts",
+          "hash": "6870352021923392442",
+          "deps": [
+            "npm:jest",
+            "npm:@nx/jest"
+          ]
+        },
+        {
+          "file": "jest.preset.js",
+          "hash": "9430166341120122740",
+          "deps": [
+            "npm:@nx/jest"
+          ]
         },
         {
           "file": "mise.toml",
@@ -29,18 +131,32 @@
         },
         {
           "file": "nx.json",
-          "hash": "13380079444191116890"
+          "hash": "16667061870115214343"
         },
         {
           "file": "package-lock.json",
-          "hash": "16842063787828236834"
+          "hash": "15069584557324515321"
         },
         {
           "file": "package.json",
-          "hash": "2589711397553304682"
+          "hash": "3344900032594999833"
+        },
+        {
+          "file": "tsconfig.base.json",
+          "hash": "11073805931523793142"
+        }
+      ],
+      "api-spec": [
+        {
+          "file": "packages/api-spec/project.json",
+          "hash": "14101377505512297206"
+        },
+        {
+          "file": "packages/api-spec/todo.openapi.yaml",
+          "hash": "7950010600869445389"
         }
       ]
     }
   },
-  "externalNodesHash": "14746807408635577638"
+  "externalNodesHash": "9866548667018685693"
 }
