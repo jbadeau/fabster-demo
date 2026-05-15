@@ -1,3 +1,7 @@
 .nx/polygraph
 .claude/worktrees
 .claude/settings.local.json
+
+
+.nx/cache
+.nx/workspace-data

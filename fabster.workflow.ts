@@ -17,7 +17,7 @@
  *   node --import tsx ../fabster/packages/cli/src/bin/fabster.ts run fabster.workflow.ts
  */
 
-import { createOllama } from 'ollama-ai-provider';
+import { createOpenAI } from '@ai-sdk/openai';
 import { DiskResource } from '@struktoai/mirage-node';
 import {
   workspace,
@@ -40,14 +40,17 @@ import {
   nxDeveloper,
 } from '@fabster/nx';
 
-// -- Model configuration (local Ollama) --
+// -- Model configuration (local Ollama via OpenAI-compatible API) --
 
-const ollama = createOllama();
+const ollama = createOpenAI({
+  baseURL: 'http://localhost:11434/v1',
+  apiKey: 'ollama',
+});
 
 export const models: ModelMap = {
-  low: ollama('devstral'),
-  medium: ollama('devstral'),
-  high: ollama('devstral'),
+  low: ollama.chat('devstral'),
+  medium: ollama.chat('devstral'),
+  high: ollama.chat('devstral'),
 };
 
 // -- Tasks specific to this workflow --
