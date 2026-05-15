@@ -9,9 +9,12 @@
     "@fabster/runtime": "file:../fabster/packages/runtime",
     "@struktoai/mirage-node": "^0.0.1",
     "ollama-ai-provider": "^1.0.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
     "tsx": "^4.0.0"
   },
   "devDependencies": {
+    "@nx/react": "^22.7.2",
     "nx": "22.7.2"
   }
 }
