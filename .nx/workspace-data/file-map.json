@@ -10,28 +10,28 @@
         "hash": "2389750024481521079"
       },
       {
-        "file": ".claude/settings.json",
-        "hash": "4174402289047638020"
-      },
-      {
         "file": "nx.json",
         "hash": "13380079444191116890"
-      },
-      {
-        "file": "package-lock.json",
-        "hash": "439386149950749092"
       },
       {
         "file": "package.json",
         "hash": "10299459641120550358"
       },
       {
-        "file": "CLAUDE.md",
-        "hash": "3693179293707062853"
-      },
-      {
         "file": "fabster.workflow.ts",
         "hash": "91138994109840818"
+      },
+      {
+        "file": ".claude/settings.json",
+        "hash": "4174402289047638020"
+      },
+      {
+        "file": "package-lock.json",
+        "hash": "439386149950749092"
+      },
+      {
+        "file": "CLAUDE.md",
+        "hash": "3693179293707062853"
       },
       {
         "file": ".gitignore",
