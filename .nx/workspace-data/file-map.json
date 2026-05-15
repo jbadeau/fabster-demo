@@ -6,12 +6,24 @@
   "fileMap": {
     "nonProjectFiles": [
       {
+        "file": "package.json",
+        "hash": "6587885091708433805"
+      },
+      {
+        "file": ".claude/settings.json",
+        "hash": "4174402289047638020"
+      },
+      {
+        "file": "package-lock.json",
+        "hash": "2922859781549434257"
+      },
+      {
         "file": "CLAUDE.md",
         "hash": "3693179293707062853"
       },
       {
-        "file": "package.json",
-        "hash": "6587885091708433805"
+        "file": "mise.toml",
+        "hash": "1493836231846946414"
       },
       {
         "file": "fabster.workflow.ts",
@@ -22,20 +34,8 @@
         "hash": "2389750024481521079"
       },
       {
-        "file": "package-lock.json",
-        "hash": "2922859781549434257"
-      },
-      {
-        "file": "mise.toml",
-        "hash": "1493836231846946414"
-      },
-      {
         "file": "nx.json",
         "hash": "13380079444191116890"
-      },
-      {
-        "file": ".claude/settings.json",
-        "hash": "4174402289047638020"
       },
       {
         "file": ".gitignore",
