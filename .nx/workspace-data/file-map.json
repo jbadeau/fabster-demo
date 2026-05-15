@@ -6,16 +6,24 @@
   "fileMap": {
     "nonProjectFiles": [
       {
+        "file": ".idea/.gitignore",
+        "hash": "2389750024481521079"
+      },
+      {
         "file": ".claude/settings.json",
         "hash": "4174402289047638020"
       },
       {
-        "file": ".gitignore",
-        "hash": "2027818105888162093"
+        "file": "nx.json",
+        "hash": "13380079444191116890"
       },
       {
-        "file": ".idea/.gitignore",
-        "hash": "2389750024481521079"
+        "file": "package-lock.json",
+        "hash": "439386149950749092"
+      },
+      {
+        "file": "package.json",
+        "hash": "10299459641120550358"
       },
       {
         "file": "CLAUDE.md",
@@ -26,23 +34,15 @@
         "hash": "91138994109840818"
       },
       {
+        "file": ".gitignore",
+        "hash": "2027818105888162093"
+      },
+      {
         "file": "mise.toml",
         "hash": "1493836231846946414"
-      },
-      {
-        "file": "nx.json",
-        "hash": "13380079444191116890"
-      },
-      {
-        "file": "package-lock.json",
-        "hash": "15847851385781804631"
-      },
-      {
-        "file": "package.json",
-        "hash": "8331733495928726258"
       }
     ],
     "projectFileMap": {}
   },
-  "externalNodesHash": "6870902980502091779"
+  "externalNodesHash": "18380444494530981123"
 }
