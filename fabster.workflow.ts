@@ -4,14 +4,17 @@
  * Creates a full-stack TodoMVC application in an Nx monorepo:
  * 1. Initialize Nx workspace
  * 2. Add React and Node plugins
- * 3. Generate OpenAPI spec for the Todo API
- * 4. Generate API client from the spec
- * 5. Generate API backend (Express)
- * 6. Implement the backend API
- * 7. Generate React frontend
- * 8. Implement the frontend with TodoMVC UI
+ * 3. Generate OpenAPI spec library
+ * 4. Agent writes the OpenAPI spec
+ * 5. Generate API client library
+ * 6. Generate API client from spec
+ * 7. Generate backend app
+ * 8. Agent implements the backend
+ * 9. Generate frontend app
+ * 10. Agent implements the frontend
  *
- * Run: npm run fabster -- run fabster.workflow.ts
+ * Run from fabster-demo dir:
+ *   node --import tsx ../fabster/packages/cli/src/bin/fabster.ts run fabster.workflow.ts
  */
 
 import { createOllama } from 'ollama-ai-provider';
@@ -129,7 +132,7 @@ export default workflow({
   name: 'create-todomvc',
   purpose: 'Create a full-stack TodoMVC application with OpenAPI spec, API client, Express backend, and React frontend',
   workspace: workspace({
-    '/repo': new DiskResource({ root: process.cwd() }),
+    '/repo': new DiskResource({ root: '/Users/jbadeau/git/fabster-demo' }),
   }),
   graph: (ctx) => {
     // Step 1: Initialize Nx workspace
