@@ -1,0 +1,13 @@
+.openapi-generator-ignore
+apis/DefaultApi.ts
+apis/index.ts
+docs/DefaultApi.md
+docs/Todo.md
+docs/TodosIdPutRequest.md
+docs/TodosPostRequest.md
+index.ts
+models/Todo.ts
+models/TodosIdPutRequest.ts
+models/TodosPostRequest.ts
+models/index.ts
+runtime.ts

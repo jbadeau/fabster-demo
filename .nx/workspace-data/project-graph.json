@@ -9920,6 +9920,11 @@
     "init-workspace": [
       {
         "source": "init-workspace",
+        "target": "npm:tslib",
+        "type": "static"
+      },
+      {
+        "source": "init-workspace",
         "target": "npm:@nx/eslint-plugin",
         "type": "static"
       },
@@ -24175,5 +24180,5 @@
   },
   "version": "6.0",
   "errors": [],
-  "computedAt": 1778847279559
+  "computedAt": 1778847295374
 }

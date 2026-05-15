@@ -23,6 +23,16 @@
   "fileMap": {
     "nonProjectFiles": [],
     "projectFileMap": {
+      "api-spec": [
+        {
+          "file": "packages/api-spec/project.json",
+          "hash": "14101377505512297206"
+        },
+        {
+          "file": "packages/api-spec/todo.openapi.yaml",
+          "hash": "7950010600869445389"
+        }
+      ],
       "api-client": [
         {
           "file": "packages/api-client/README.md",
@@ -52,6 +62,66 @@
         {
           "file": "packages/api-client/project.json",
           "hash": "1341664342083206422"
+        },
+        {
+          "file": "packages/api-client/src/generated/.openapi-generator-ignore",
+          "hash": "5921108589004068994"
+        },
+        {
+          "file": "packages/api-client/src/generated/.openapi-generator/FILES",
+          "hash": "17674852883678943768"
+        },
+        {
+          "file": "packages/api-client/src/generated/.openapi-generator/VERSION",
+          "hash": "10356305580611497366"
+        },
+        {
+          "file": "packages/api-client/src/generated/apis/DefaultApi.ts",
+          "hash": "2426107501308970680"
+        },
+        {
+          "file": "packages/api-client/src/generated/apis/index.ts",
+          "hash": "12855881799744618526"
+        },
+        {
+          "file": "packages/api-client/src/generated/docs/DefaultApi.md",
+          "hash": "7225866011869842093"
+        },
+        {
+          "file": "packages/api-client/src/generated/docs/Todo.md",
+          "hash": "7141203756883075146"
+        },
+        {
+          "file": "packages/api-client/src/generated/docs/TodosIdPutRequest.md",
+          "hash": "3203046454414448133"
+        },
+        {
+          "file": "packages/api-client/src/generated/docs/TodosPostRequest.md",
+          "hash": "16621356341535929148"
+        },
+        {
+          "file": "packages/api-client/src/generated/index.ts",
+          "hash": "2306563215003154937"
+        },
+        {
+          "file": "packages/api-client/src/generated/models/Todo.ts",
+          "hash": "10775703146768552055"
+        },
+        {
+          "file": "packages/api-client/src/generated/models/TodosIdPutRequest.ts",
+          "hash": "11215927861413707195"
+        },
+        {
+          "file": "packages/api-client/src/generated/models/TodosPostRequest.ts",
+          "hash": "15592347509000507241"
+        },
+        {
+          "file": "packages/api-client/src/generated/models/index.ts",
+          "hash": "7928659494016666441"
+        },
+        {
+          "file": "packages/api-client/src/generated/runtime.ts",
+          "hash": "10460952253167320447"
         },
         {
           "file": "packages/api-client/src/index.ts",
@@ -104,6 +174,41 @@
           "hash": "3693179293707062853"
         },
         {
+          "file": "dist/packages/api-client/README.md",
+          "hash": "7690025743337817772"
+        },
+        {
+          "file": "dist/packages/api-client/package.json",
+          "hash": "9932850238999259194"
+        },
+        {
+          "file": "dist/packages/api-client/src/index.d.ts",
+          "hash": "3652867921044571464"
+        },
+        {
+          "file": "dist/packages/api-client/src/index.js",
+          "hash": "10598097602925856827",
+          "deps": [
+            "npm:tslib"
+          ]
+        },
+        {
+          "file": "dist/packages/api-client/src/index.js.map",
+          "hash": "15976044920948671663"
+        },
+        {
+          "file": "dist/packages/api-client/src/lib/api-client.d.ts",
+          "hash": "12502650527206018655"
+        },
+        {
+          "file": "dist/packages/api-client/src/lib/api-client.js",
+          "hash": "2076831152017100546"
+        },
+        {
+          "file": "dist/packages/api-client/src/lib/api-client.js.map",
+          "hash": "15005301580625545388"
+        },
+        {
           "file": "eslint.config.mjs",
           "hash": "12926286793420397906",
           "deps": [
@@ -134,6 +239,10 @@
           "hash": "16667061870115214343"
         },
         {
+          "file": "openapitools.json",
+          "hash": "12476949951848367864"
+        },
+        {
           "file": "package-lock.json",
           "hash": "15069584557324515321"
         },
@@ -144,16 +253,6 @@
         {
           "file": "tsconfig.base.json",
           "hash": "11073805931523793142"
-        }
-      ],
-      "api-spec": [
-        {
-          "file": "packages/api-spec/project.json",
-          "hash": "14101377505512297206"
-        },
-        {
-          "file": "packages/api-spec/todo.openapi.yaml",
-          "hash": "7950010600869445389"
         }
       ]
     }
