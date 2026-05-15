@@ -2,6 +2,11 @@
   "devDependencies": {
     "@nx/eslint": "^22.7.2",
     "@nx/eslint-plugin": "^22.7.2",
-    "@nx/jest": "^22.7.2"
+    "@nx/jest": "^22.7.2",
+    "@nx/react": "^22.7.2"
+  },
+  "dependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
   }
 }
